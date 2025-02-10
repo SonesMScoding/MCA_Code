@@ -1,0 +1,30 @@
+div{
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+div h1{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.color{
+ color:  darkblue;  
+ background-color: lightblue;
+}
+
+.hex{
+    color:  #3e0f3e;  
+    background-color:#ffcccc ;
+}
+
+.rgb{
+    color: rgb(255, 236, 159) ;  
+    background-color: rgb(86, 8, 8) ;
+}
+
+.hsl{
+    color: hsl(343, 100%, 79%) ;  
+    background-color: hsl(120, 40%, 17%);
+}

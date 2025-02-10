@@ -1,0 +1,17 @@
+body{
+    background-image: url("../495521.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #57439a;
+}
+
+section{
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(to right, #acacfe, #ffecb0);
+    margin: 20px auto;
+}
+
+h1{
+  color: #ffecb0;
+}

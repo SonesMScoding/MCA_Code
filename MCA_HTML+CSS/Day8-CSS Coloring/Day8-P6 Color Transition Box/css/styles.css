@@ -1,0 +1,18 @@
+.transition-box {
+    background: linear-gradient(#a1a1f6, #f6a8a8);
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.transition-box:hover {
+    background: linear-gradient(#4a2c87, #9d5256);
+    color: #dfc3c3;
+}
