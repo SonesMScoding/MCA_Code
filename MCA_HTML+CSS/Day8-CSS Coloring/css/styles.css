@@ -1,0 +1,24 @@
+h1{
+    /* Hexcode Coloring */
+    color:#ab6750;
+    background-color: #e6d9ff;
+    text-align: center;
+}
+
+.gradientBox{
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(to right, #acacfe, #ffecb0);
+    margin: 20px auto;
+}
+
+body{
+    background-image: url("../shutterstock_97706066_1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    color: hsl(182, 52%, 46%);
+    font-size: 1.5rem;
+}

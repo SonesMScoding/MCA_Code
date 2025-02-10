@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event RSVP</title>
+</head>
+<body>
+    <h1>Event RSVP</h1>
+
+    <form action="/rsvp" method="POST">
+        <label for="guestname">Guest Name:</label>
+        <input type="text" name="guestname" id="guestname" required>
+<br>
+        <label for="num">Number of Attendees</label>
+        <input type="number" name="num" id="num">
+<br>
+<p>Meal Preference:</p>
+        <input type="radio" id="vegan" name="mealpref" value="vegan" required>
+          <label for="vegan">Vegan</label><br>
+          <input type="radio" id="nonveg" name="mealpref" value="nonveg" >
+          <label for="nonveg">Non-Vegetarian</label><br>
+          <input type="radio" id="veg" name="mealpref" value="veg">
+          <label for="veg">Vegetarian</label>
+<br>
+        <label for="specialreq">Special Requests:</label> <textarea name="specialreq" id="specialreq" rows="4" cols="50" ></textarea>
+<br>
+        <button type="submit">RSVP Now</button>
+    </form>
+</body>
+</html>

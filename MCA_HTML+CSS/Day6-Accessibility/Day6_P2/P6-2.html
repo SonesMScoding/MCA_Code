@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcccessibleSignUp</title>
+</head>
+<body>
+    <header role="banner">
+        <h2>Sign Up for My Newsletter:</h2>
+    </header>
+
+    <main role="main">
+    <form action="#" role="form" aria-labelledby="signup-heading"">
+        <h3 id="signup-heading">Sign up</h3>
+
+        <label for="username">Username (required)</label>
+        <input type="text" name="username" id="username" required aria-required="true">
+        <br>
+        <label for="password">Password (required)</label>
+        <input type="password" name="password" id="password" required aria-required="true">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <button type="submit">Sign Up</button>
+
+    </form>
+    </main>
+</body>
+</html>

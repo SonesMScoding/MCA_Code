@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Basics</title>
+</head>
+<body>
+    <header role="banner">My Accessible Website
+    <nav>
+        <ul>
+            <li><a href="#">Homme</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main role="main">
+    <section>
+        <h2>About Our Site</h2>
+        <p>We strive to make our content accessible.</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0Mcmtga09b1aVg1R-P0zRxDGDnTUSpr68Q&s" alt="A man stopped on his bike with a travellers bag.">
+    
+    </section>
+
+    <form action="#" aria-labelledby="signup-heading">
+        <h3 id="signup-heading">Sign up</h3>
+
+        <label for="username">Username (required)</label>
+        <input type="text" name="username" id="username" required aria-required="true">
+        <br>
+        <label for="password">Password (required)</label>
+        <input type="password" name="password" id="password" required aria-required="true">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</main>
+
+<footer role="contentinfo">
+    <p>&copy; 2025 My Accessible Website</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables+Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Combining Tables and Forms</h1>
+    </header>
+    <main>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Sign up</th>
+                    <th>Input</th>
+                </tr>
+            </thead>
+        <tbody>
+        <form>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td> <input type="text" name="username" id="username" required placeholder="myUsername"></td> 
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" id="password" required placeholder="myPassword"></td>
+            </tr>
+            <tr>
+                <td><label for="submit">Log In</label></td>
+                <td><input type="submit" name="submit" id="submit"></td>
+            </tr>
+        </form>
+        </tbody>
+
+        <tfoot>
+            <p>Tables are outdated. This is an odd way to do this and a table is not a form. There is no good reason to do this.</p>
+        </tfoot>
+        </table>
+</body>
+</html>

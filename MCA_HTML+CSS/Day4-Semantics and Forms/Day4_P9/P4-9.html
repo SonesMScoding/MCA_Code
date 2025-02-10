@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductFeedback</title>
+</head>
+<body>
+    <form action="/feedback" method="POST">
+        <label for="name">Product Name:</label>
+        <input type="text" name="name" id="name">
+<br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+<br>
+
+        <p>Please rate your service:</p>
+        <input type="radio" id="1" name="rate" value="1" required>
+        <label for="1">1</label><br>
+        <input type="radio" id="2" name="rate" value="2" >
+        <label for="2">2</label><br>
+        <input type="radio" id="3" name="rate" value="3">
+        <label for="3">3</label><br>
+        <input type="radio" id="4" name="rate" value="4">
+        <label for="4">4</label><br>
+        <input type="radio" id="5" name="rate" value="5">
+        <label for="5">5</label><br>
+
+      <label for="feedback">Extra Feedback:</label> <textarea name="feedback" id="comments" rows="4" cols="50" ></textarea>
+<br>
+<label for="check">Terms Agreement</label>
+<input type="checkbox" name="check" id="check">
+
+<br>
+    <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>
